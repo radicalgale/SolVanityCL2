@@ -29,7 +29,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/svmurai/SolVanityCL.git
+   git clone https://github.com/radicalgale/SolVanityCL2.git
    cd SolVanityCL
    ```
 
