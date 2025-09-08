@@ -1,0 +1,44 @@
+{
+  "search": {
+    "startsWith": [
+      "111111"
+    ],
+    "endsWith": "",
+    "count": 0,
+    "caseSensitive": true
+  },
+  "performance": {
+    "iterationBits": 24,
+    "localWorkSize": 128,
+    "autoTuneLws": true,
+    "buildOptions": "-cl-fast-relaxed-math -cl-mad-enable -cl-no-signed-zeros -cl-unsafe-math-optimizations -cl-finite-math-only -cl-denorms-are-zero"
+  },
+  "seed": {
+    "seedB58": "GRrYKuDFHmeM8qv975hT4eVQJ8L4cYRuBvnR5bpai2vG",
+    "useLastSeed": true,
+    "decrement": true,
+    "reverseSeedBytes": false
+  },
+  "skip": {
+    "enabled": false,
+    "skipMode": "base",
+    "skipSuffixAmount": 1
+  },
+  "output": {
+    "dir": "./found",
+    "writeJson": false,
+    "writePrefixes": false,
+    "writeData": false
+  },
+  "devices": {
+    "selectDevice": false
+  },
+  "accumulation": {
+    "recordAll": true,
+    "maxResultsPerBatch": 512,
+    "accumulateBatches": true,
+    "flushEveryBatches": 1,
+    "flushPolicy": "interval",
+    "recordAllMode": "tiled"
+  }
+}

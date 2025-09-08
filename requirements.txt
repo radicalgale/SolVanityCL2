@@ -1,0 +1,6 @@
+click>=7.0
+pyopencl
+base58
+PyNaCl
+numpy>=1.23,<2
+matplotlib
