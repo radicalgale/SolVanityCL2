@@ -14,9 +14,9 @@
     "buildOptions": "-cl-fast-relaxed-math -cl-mad-enable -cl-no-signed-zeros -cl-unsafe-math-optimizations -cl-finite-math-only -cl-denorms-are-zero"
   },
   "seed": {
-    "seedB58": "GRrYKuDFHmeM8qv975hT4eVQJ8L4cYRuBvnR5bpai2vG",
-    "useLastSeed": true,
-    "decrement": true,
+    "seedB58": "",
+    "useLastSeed": false,
+    "decrement": false,
     "reverseSeedBytes": false
   },
   "skip": {
@@ -26,7 +26,7 @@
   },
   "output": {
     "dir": "./found",
-    "writeJson": false,
+    "writeJson": true,
     "writePrefixes": false,
     "writeData": false
   },
@@ -34,8 +34,8 @@
     "selectDevice": false
   },
   "accumulation": {
-    "recordAll": true,
-    "maxResultsPerBatch": 512,
+    "recordAll": false,
+    "maxResultsPerBatch": 64,
     "accumulateBatches": true,
     "flushEveryBatches": 1,
     "flushPolicy": "interval",
